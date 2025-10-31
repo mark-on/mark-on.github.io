@@ -1,6 +1,6 @@
 ---
 title: "First Writing"
-layout: layout.njk
+layout: postLayout.njk
 tags: ["writings"]
 permalink: "/blog/{{ title | slug }}/"
 ---

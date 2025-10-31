@@ -1,6 +1,6 @@
 ---
 title: "Post Writings"
-layout: layout.njk
+layout: postLayout.njk
 tags: ["journaling"]
 permalink: "/blog/{{ title | slug }}/"
 ---
