@@ -4,7 +4,7 @@ title: "About Me"
 permalink: /about/
 ---
 
-<h1>Hello there, I'm Mark!</h1>
+<h1>Hello there, I'm Mark! </h1>
 <p>Nice to meet you and welcome to my space station. You've traveled a lot before you got here so please, take a break.</p>
 <br><hr><br>
 <p>I'm a computer science student and my intent with this websites it's to share knowledge, thoughts, experiences and connect with people. </p>
