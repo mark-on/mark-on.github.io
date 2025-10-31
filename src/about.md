@@ -4,6 +4,8 @@ title: "About Me"
 permalink: /about/
 ---
 
+--- 
+
 # Hello there, I'm Mark!<br>
 Nice to meet you and welcome to my space station. You've traveled a lot before you got here so please, take a break.<br><br>
 
@@ -28,8 +30,16 @@ The range of fields where the word freedom needs to be applied is endless. I wan
 This site isn't dead yet, come here often.<br>
 If you want to travel in the station, there are some useful portals. Why walk if you can teleport yourself everywhere you want to go?<br><br>
 
+<br><br>
 ### Coming Soon<br>
 - **My first post:** a Deep-Dive into me<br>
 - **IndieWeb:** why making a website in 2025<br>
 - **Does the Big Brother exist?**<br>
 - **Nick Drake:** poetry of a bluesman
+
+
+---
+#Contacts
+Feel free to write me for eveerything, im open to everything answer your question, discuss about a topic, or just chatting and connect each other.
+
+mail me to: [markonblog@gmail.com](mailto:markonblog@gmail.com)
