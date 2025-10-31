@@ -38,11 +38,6 @@ The range of fields where the word freedom needs to be applied is endless. I wan
 This site isn't dead yet, come here often.  
 If you want to travel in the station, there are some useful portals. Why walk if you can teleport yourself everywhere you want to go?
 
-- |blog|
-- |writings|
-- |analysis|
-- |coding|
-- see all ->
 
 ### Coming Soon
 
