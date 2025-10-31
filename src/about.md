@@ -64,9 +64,8 @@ If you want to travel in the station, there are some useful portals. Why walk if
 
 # Contacts
 
-  
 
-Feel free to write me for everything — I'm open to answering your questions, discussing topics, or just chatting and connecting.
+Feel free to write me for everything — I'm open to answer too your questions, discussing topics, or just chatting and connecting.
 
   
 
