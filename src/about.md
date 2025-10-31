@@ -61,23 +61,6 @@ This site isn't dead yet, come here often.<br>
 If you want to travel in the station, there are some useful portals. Why walk if you can teleport yourself everywhere you want to go?
 
 
-### Coming Soon
-
-  
-
-- **My first post:** a Deep-Dive into me  
-
-- **IndieWeb:** why making a website in 2025  
-
-- **Does the Big Brother exist?**  
-
-- **Nick Drake:** poetry of a bluesman  
-
-  
-
----
-
-
 
 # Contacts
 
