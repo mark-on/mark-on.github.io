@@ -35,7 +35,7 @@ If you want to travel in the station, there are some useful portals. Why walk if
 - **My first post:** a Deep-Dive into me<br>
 - **IndieWeb:** why making a website in 2025<br>
 - **Does the Big Brother exist?**<br>
-- **Nick Drake:** poetry of a bluesman
+- **Nick Drake:** poetry of a bluesman<br><br>
 
 
 ---
