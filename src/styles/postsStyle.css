@@ -11,6 +11,11 @@
   margin-bottom: 1.3rem;
 }
 
+.post-date{
+  margin-top: 3px;
+  font-size: smaller;
+}
+
 #heading {
   font-size: 3.5rem;            /* molto grande */
   font-weight: 800;             /* bold deciso */
@@ -18,8 +23,9 @@
   font-family: "Momo Trust Sans", "Segoe UI", Roboto, sans-serif; /* moderno e leggibile */
   text-transform: none;         /* lettere normali */
   letter-spacing: 0.03em;       /* leggera spaziatura per look moderno */
-  margin-bottom: 2rem;
   line-height: 1.2;  
+  margin-top: 0;
+  
 }
 
 .post-content h1, 

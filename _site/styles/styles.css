@@ -28,8 +28,7 @@ body {
   height: auto;
 }
 .sideBar {
-  width: 15rem;
-  min-width: 15rem;
+  width: 10rem;
   height: 100vh;
   padding: 5vh 2%;
   border-right: 1px solid black;
@@ -45,9 +44,7 @@ body {
   max-width: 8rem;
 }
 
-.cit {
-  margin: 5vh 0;
-}
+
 
 .sideBar p {
   font-size: 10px;

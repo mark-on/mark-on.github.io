@@ -3,6 +3,7 @@ title: "Famous not equal Rich"
 layout: postLayout.njk
 tags: ["essay"]
 permalink: "/blog/{{ title | slug }}/"
+date: 2025-11-04
 ---
 
 Would you rather be rich and unknown or poor and famous?  

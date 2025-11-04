@@ -4,7 +4,9 @@ layout: layout.njk
 
 <link rel="stylesheet" href="/styles/postsStyle.css">
 
+  
   <h1 id="heading">{{ title }}</h1>
+  <p class="post-date">{{ date | dateDisplay }}</p>
 
   <div class="post-content">
     {{ content | safe }}
