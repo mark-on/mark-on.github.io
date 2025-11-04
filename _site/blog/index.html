@@ -7,51 +7,61 @@
   <link rel="icon" href="img/logo.svg" type="image/svg">
   <link rel="stylesheet" href="/styles/styles.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&display=swap" rel="stylesheet">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&display=swap" rel="stylesheet">
+</head>
 
-    <a href="/"><img src="/img/logo.svg" alt="" id="logo"></a>
+<body>
+  <!-- Barra superiore per mobile -->
+  <div class="secondBar">
     <div>
+      <a href="/"><img src="/img/logo.svg" alt="Logo" id="logo"></a>
+    </div>
+
+    <!-- Bottone hamburger -->
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+    <!-- Menu mobile nascosto di default -->
+    <div class="mobileMenu">
       <a href="/blog/">|Blog|</a>
       <a href="/about/">|About Me|</a>
+      <a href="/bookmarks/">|Bookmarks|</a>
     </div>
-    
   </div>
+
+  <!-- Sidebar per desktop -->
   <div class="sideBar">
-    
-      <div class="logoContainer">
-        <a href="/"><img src="/img/logo.svg" alt="" id="logo"></a>
-        <p>> Tech Minimalism && Coding</p>
-      </div>
-    
-      
-      <div class="cit">     
-       <pre>
+    <div class="logoContainer">
+      <a href="/"><img src="/img/logo.svg" alt="Logo" id="logo"></a>
+    </div>
+
+    <div class="cit">     
+      <pre>
 +-------------------------+
 | Hi I'm Mark && this     |
 | is my own space station |   
 +-------------------------+
       </pre>
-      </div>
+    </div>
 
-      <div class="menu">
-
-        <a href="/blog/">|Blog|</a>
-        <a href="">|Bookmarks|</a>
-        <a href="/about/">|About me|</a>
-        <a href="inspo.html">|Contacts|</a>
-        </div> <!--menu ends-->
+    <div class="menu">
+      <a href="/blog/">|Blog|</a>
+      <a href="/bookmarks/">|Bookmarks|</a>
+      <a href="/about/">|About Me|</a>
+    </div> <!-- menu ends -->
   </div>
+
+  <!-- Contenitore principale -->
   <div class="pageContainer">
-  <div class="spacer"><p> </p>
-  </div>
-  <div class="mainContent">
-        
-<link rel="stylesheet" href="/styles/postsStyle.css">
+    <div class="spacer"><p></p></div>
+    <div class="mainContent">
+      
+<link rel="stylesheet" href="/styles/blogStyle.css">
 
 <h1 id = "heading">Blog</h1>
-<p>Welcome to my own space station, don't yu dare go hollow!</p>
+<p>Welcome to my own space station, don't you dare go hollow!</p>
 <br>
 <hr>
 <br>
@@ -60,47 +70,67 @@
   
     <article>
       <div class="titleContainer">
-        <h2><a href="/posts/draft/journaling/journaling1/"></a></h2>
+        <h2><a href="/blog/famous-not-equal-rich/">Famous not equal Rich</a></h2>
+        
+          <p class="post-tags">essay</p>
         
       </div>
-      <p id ="date"><small>01 Nov 2025</small></p>
-      <p id = "intro" >This is my very blog post. That&#39;s so weird, writing to only but yourself, the website isn&#39;t even deployed on the web and I&#39;m already thinking how peop...</p>
+      <p id ="date"><small>04 Nov 2025</small></p>
+      <p id = "intro" >Would you rather be rich and unknown or poor and famous? This could seem a stupid question, but understanding the answer can help us make a model abou...</p>
     </article>
   
     <article>
       <div class="titleContainer">
-        <h2><a href="/posts/draft/writings/ho to kill a boy/Sources/"></a></h2>
+        <h2><a href="/posts/Draft/Going slow to go faster/"></a></h2>
         
       </div>
-      <p id ="date"><small>01 Nov 2025</small></p>
-      <p id = "intro" >CDC - # [Suicide Data and Statistics] https://www.verywellmind.com/gender-differences-in-suicide-methods-1067508 https://www.verywellmind.com/men-and-...</p>
+      <p id ="date"><small>03 Nov 2025</small></p>
+      <p id = "intro" >Explaining through personal experiences sometimes to go fast you need to slow down. University experience, life experiences and some advice</p>
     </article>
   
     <article>
       <div class="titleContainer">
-        <h2><a href="/blog/first-writing/">First Writing</a></h2>
-        
-          <p class="post-tags">writings</p>
+        <h2><a href="/posts/Draft/No Social, No life/"></a></h2>
         
       </div>
-      <p id ="date"><small>31 Oct 2025</small></p>
-      <p id = "intro" >prov WRITING</p>
+      <p id ="date"><small>03 Nov 2025</small></p>
+      <p id = "intro" >intro accattivante riguardo riguardo il numero di amicizie vere che una persona ha, se ha una vita sociale Aneddoto personale riguardo al distaccament...</p>
     </article>
   
     <article>
       <div class="titleContainer">
-        <h2><a href="/blog/post-writings/">Post Writings</a></h2>
+        <h2><a href="/posts/Draft/indiewebBOZZA/">IndieWeb is the new OpenSource</a></h2>
+        
+          <p class="post-tags">writings, essay</p>
+        
+      </div>
+      <p id ="date"><small>03 Nov 2025</small></p>
+      <p id = "intro" >In this article i want to discuss the meaning of having a website to this day and why it matter more than ever. You own the platform, free of speech L...</p>
+    </article>
+  
+    <article>
+      <div class="titleContainer">
+        <h2><a href="/blog/journaling-1/">Journaling 1</a></h2>
         
           <p class="post-tags">journaling</p>
         
       </div>
-      <p id ="date"><small>31 Oct 2025</small></p>
-      <p id = "intro" >PROVA PROVA PROVA JOURNALPROVA PROVA PROVA JOURNALPROVA PROVA PROVA JOURNALPROVA PROVA PROVA JOURNALPROVA PROVA PROVA JOURNALPROVA PROVA PROVA JOURNAL...</p>
+      <p id ="date"><small>01 Nov 2025</small></p>
+      <p id = "intro" >This is my very blog post. That&#39;s so weird, writing for the first time not only for my self but for the hope that someone could read it (by mistake, l...</p>
     </article>
   
 </div>
 
+    </div>
   </div>
-  </div>
-  </body>
+
+  <!-- Script per apertura/chiusura menu mobile -->
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.mobileMenu');
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+    });
+  </script>
+</body>
 </html>
