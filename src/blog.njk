@@ -20,8 +20,7 @@ title: Blog
           <p class="post-tags">{{ post.data.tags | join(", ") }}</p>
         {% endif %}
       </div>
-      <p id ="date"><small>{{ post.date | dateDisplay  }}</small></p>
-      <p id = "intro" >{{ post.templateContent | striptags | truncate(150, true, "...") }}</p>
+     <p id = "intro" >{{ post.templateContent | striptags | truncate(150, true, "...") }}</p>
     </article>
   {% endfor %}
 </div>
