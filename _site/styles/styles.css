@@ -96,6 +96,28 @@ body {
   align-items: center;
 }
 
+a {
+  color: #9c8cff; /* Viola ispirato al tema Obsidian */
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+a:hover {
+  color: #b6a8ff; /* tono più chiaro al passaggio */
+  border-bottom-color: rgba(182, 168, 255, 0.7);
+
+}
+
+::selection {
+  background-color: #9c8cff; /* viola obsidian */
+  color: #1D1D28; /* testo scuro per contrasto */
+}
+
+::-moz-selection {
+  background-color: #9c8cff;
+  color: #1D1D28;
+}
+
 @media (max-width: 768px) {
   .sideBar, .spacer{
     display:none;

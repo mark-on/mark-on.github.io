@@ -62,7 +62,7 @@
 }
 
 .post-content em {
-  color: #c9c9c9;
+  color: #ffff;
   font-style: italic;
 }
 
@@ -129,16 +129,7 @@
   font-style: italic;
 }
 
-/* Selezione del testo in stile Obsidian */
-::selection {
-  background-color: #9c8cff; /* viola obsidian */
-  color: #1D1D28; /* testo scuro per contrasto */
-}
 
-::-moz-selection {
-  background-color: #9c8cff;
-  color: #1D1D28;
-}
 
 /* Miglior leggibilità mobile */
 @media (max-width: 768px) {
