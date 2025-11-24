@@ -2,13 +2,6 @@ h1, p{
   margin-bottom: 10px;
 }
 
-#logop{
-  font-family: "Jacquard 24", system-ui;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 50px;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -103,9 +96,6 @@ body {
   align-items: center;
 }
 
-.secondLogoContainer{
-  margin-left: 20px;
-}
 
 a {
   color: #9c8cff; /* Viola ispirato al tema Obsidian */
