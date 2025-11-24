@@ -7,6 +7,14 @@ on:
   # Permette l'esecuzione manuale dalla scheda Actions
   workflow_dispatch:
 
+# 🚨 Aggiunta essenziale per il deploy su GitHub Pages
+# Abilita il token di GitHub Actions a scrivere sulle Pages
+# e a generare il token ID per l'autenticazione.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 # Definisce i due job (compilazione e deploy)
 jobs:
   build:
