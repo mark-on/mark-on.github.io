@@ -23,7 +23,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "src",          // cartella dei Markdown
       includes: "_includes", // layout
-      output: "docs"        // cartella generata
+      output: "_site"        // cartella generata
     }
   };
 };
