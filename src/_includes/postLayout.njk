@@ -2,11 +2,24 @@
 layout: layout.njk
 ---
 
+<div class="h-entry">
+
+<header style="visibility:hidden">
+    <a href="{{ page.url }}" class="u-url" aria-hidden="true"></a>
+
+    <div class="post-meta">
+      <span class="p-author h-card">Mark-on</span>
+      
+      <time class="dt-published" datetime="{{ page.date | dateToISO }}"></time>
+    </div>
+</header>
+
+
 <link rel="stylesheet" href="/styles/postsStyle.css">
 
   
-  <h1 id="heading">{{ title }}</h1>
-
-  <div class="post-content">
-    {{ content | safe }}
-  </div>
+  <h1 id="heading" class="p-name">{{ title }}</h1>
+    <div class="e-content" >
+      {{ content | safe }}
+    </div>
+</div>

@@ -19,6 +19,19 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => b.date - a.date); // ordina decrescente
   });
 
+  eleventyConfig.addFilter("dateToISO", (dateObj) => {
+        // toISOString() restituisce una stringa in formato ISO 8601 (es. 2025-11-24T00:00:00.000Z)
+        return dateObj.toISOString();
+    });
+
+    // 2. Filtro per formato Leggibile (Necessario per la visualizzazione all'utente)
+    eleventyConfig.addFilter("readableDate", (dateObj) => {
+        // Imposta le opzioni di formattazione
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        // Imposta la locale desiderata (ad esempio, 'it-IT' per l'italiano)
+        return dateObj.toLocaleDateString('it-IT', options);
+    });
+
   return {
     dir: {
       input: "src",          // cartella dei Markdown
