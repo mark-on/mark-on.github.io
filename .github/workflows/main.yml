@@ -1,0 +1,47 @@
+name: Deploy Eleventy Site
+
+# Il workflow viene eseguito in caso di push sul branch main
+on:
+  push:
+    branches: ["main"]
+  # Permette l'esecuzione manuale dalla scheda Actions
+  workflow_dispatch:
+
+# Definisce i due job (compilazione e deploy)
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Usa una versione LTS di Node.js
+
+      - name: Install dependencies
+        run: npm install
+
+      # Compila il sito Eleventy
+      - name: Build Eleventy Site
+        run: npx @11ty/eleventy
+        env:
+          ELEVENTY_PRODUCTION: true
+
+      # Carica l'output compilato dalla cartella _site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build # Dipende dal successo del job 'build'
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
