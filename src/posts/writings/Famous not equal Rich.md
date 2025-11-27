@@ -4,7 +4,7 @@ tags:
   - essay
 title: Famous not equal Rich
 permalink: /blog/{{ title | slug }}/
-
+date: 2025-11-20
 ---
 Would you rather be rich and unknown or poor and famous?  This could seem a stupid question but understanding the answer can help us make a model about how modern society has a weird correlation with money and fame. While having money can let you be less anxious and economically independent, I cannot understand the pros of only being famous. **"We crave attention over freedom"**
 
