@@ -9,7 +9,7 @@ layout: layout.njk
       <meta class="p-author h-card" content="https://mark-on.github.io/{{page.url}}"></meta>   
       <time class="dt-published" datetime="{{ page.date | dateToISO }}"></time>
 
-  
+  {{ page.date}}
   <h1 id="heading" class="p-name">{{ title }}</h1>
     <div class="e-content" >
       {{ content | safe }}

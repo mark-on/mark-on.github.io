@@ -4,6 +4,7 @@ tags:
   - post
 title: My new cringe blog
 permalink: /blog/{{ title | slug }}/
+date: Last Modified
 ---
 
 

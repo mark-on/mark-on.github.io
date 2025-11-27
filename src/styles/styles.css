@@ -119,6 +119,13 @@ a:hover {
   color: #1D1D28;
 }
 
+tag{
+  font-size: 100px;
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 @media (max-width: 768px) {
   .sideBar, .spacer{
     display:none;
