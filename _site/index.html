@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="icon" href="/img/logo.svg" type="image/svg">
+  <link rel="stylesheet" href="/styles/styles.css">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Momo+Trust+Sans:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Barra superiore per mobile -->
+  <div class="secondBar">
+    <div class = "secondLogoContainer">
+      <a href="/"><img src="/img/logo.svg" alt="" id="logo"></a>      
+    </div>
+
+    <!-- Bottone hamburger -->
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+    <!-- Menu mobile nascosto di default -->
+    <div class="mobileMenu">
+      <a href="/blog/">|Blog|</a>
+      <a href="/about/">|About Me|</a>
+      <a href="/bookmarks/">|Bookmarks|</a>
+    </div>
+  </div>
+
+  <!-- Sidebar per desktop -->
+  <div class="sideBar">
+    <div>
+      <a href="/"><img src="/img/logo.svg" alt="" id="logo"></a>
+    </div>
+
+  
+
+    <div class="menu">
+      <a href="/blog/">|Blog|</a>
+      <a href="/bookmarks/">|Bookmarks|</a>
+      <a href="/about/">|About Me|</a>
+    </div> <!-- menu ends -->
+  </div>
+
+  <!-- Contenitore principale -->
+  <div class="pageContainer">
+    <div class="spacer"><p></p></div>
+    <div class="mainContent">
+      
+<link rel="stylesheet" href="/styles/blogStyle.css">
+
+<h1 id="heading">Hello there, I'm <tag>Mark!<tag></h1>
+<p>Nice to meet you and welcome to my Digital Garden. You've traveled a lot before you got here so please, take a break.</p>
+<br><br><br><br><br>
+
+<h1>Writings</h1>
+<div class="posts">
+  
+    <article>
+      <div class="titleContainer">
+        <h2><a href="/blog/my-new-cringe-blog/">My new cringe blog</a></h2>
+        
+          <p class="post-tags">post</p>
+        
+      </div>
+     <p id = "intro" >Hi, my name&#39;s Marco and this is my brand-new blog, and the reason for this blog post is to tell you only the truth. Blogging is fucking cringe! Now, w...</p>
+    </article>
+  
+    <article>
+      <div class="titleContainer">
+        <h2><a href="/blog/famous-not-equal-rich/">Famous not equal Rich</a></h2>
+        
+          <p class="post-tags">essay</p>
+        
+      </div>
+     <p id = "intro" >Would you rather be rich and unknown or poor and famous? This could seem a stupid question but understanding the answer can help us make a model about...</p>
+    </article>
+  
+</div>
+
+    </div>
+  </div>
+
+  <!-- Script per apertura/chiusura menu mobile -->
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('.mobileMenu');
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+
+<script>
+document.querySelectorAll('a[href^="http"]').forEach(link => {
+  link.setAttribute('target', '_blank');
+  link.setAttribute('rel', 'noopener noreferrer');
+});
+
+</script>
+</html>
